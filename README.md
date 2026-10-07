@@ -139,8 +139,6 @@ node node_modules/next/dist/bin/next build
 ## 📄 Deliverable Documentation Links
 * [Assignment 1 Technical Report (PDF-ready)](docs/ASSIGNMENT_1_REPORT.md)
 * [Assignment 2 System Architecture Note (PDF-ready)](docs/ASSIGNMENT_2_ARCHITECTURE.md)
-* [Project Changelog](docs/CHANGELOG.md)
-* [Roadmap & Verification Logs](docs/ROADMAP.md)
 
 ---
 

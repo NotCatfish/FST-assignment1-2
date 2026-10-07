@@ -44,3 +44,12 @@ next-env.d.ts
 *.db
 *.db-journal
 prisma/dev.db
+
+# internal agent handoff docs
+docs/AI_HANDOFF.md
+docs/CHANGELOG.md
+docs/ROADMAP.md
+AI_HANDOFF.md
+CHANGELOG.md
+ROADMAP.md
+
