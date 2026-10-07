@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #fafafa;
+  color: #18181b;
+  min-height: 100vh;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dark body,
+body.dark {
+  background-color: #09090b;
+  color: #fafafa;
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #e4e4e7;
+}
+
+.dark .glass-panel {
+  background-color: rgba(18, 18, 21, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #27272a;
+}
